@@ -1,0 +1,21 @@
+{
+  "name": "masterwin-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for MasterWin Football Score Tips",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

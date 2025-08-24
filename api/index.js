@@ -6,7 +6,6 @@ const TelegramBot = require('node-telegram-bot-api');
 const { initBot } = require('../bot');
 const app = express();
 
-// Middleware to parse JSON bodies
 app.use(express.json());
 
 // Initialize bot

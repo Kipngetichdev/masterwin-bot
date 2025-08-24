@@ -14,7 +14,7 @@ function initBot() {
   
   // Register command and message handlers
   const config = {
-    subscriptionUrl: process.env.SUBSCRIPTION_URL || 'https://example.com/subscribe'
+    subscriptionUrl: process.env.SUBSCRIPTION_URL || 'https://masterwin-bot.vercel.app'
   };
   handleCommands(bot, config);
   handleMessages(bot);
